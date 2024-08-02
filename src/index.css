@@ -5,6 +5,7 @@ header{
     flex-direction: column;
     align-items: center;
     font-family: Georgia;
+    font-size: 2.5vh;
 }
 
 label{
@@ -17,13 +18,13 @@ label{
 
 /*Button*/
 .botao{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
 
     padding: 5px;
-    font-size:xx-large;
+    font-size: 5vh;
     font-family:Georgia;
     background-color: transparent;
     border-color: white;
